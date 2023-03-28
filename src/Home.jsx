@@ -62,7 +62,7 @@ const Home = () => {
       
       <Tours tours={tours} removeTour={removeTour} />
       <Link to='/reviews'>
-        <button className='random-btn'>Check out our reviews</button>
+        <button className='random-btn'>Check out reviews</button>
       </Link>
     </main>
   );

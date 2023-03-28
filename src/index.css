@@ -327,7 +327,7 @@ main .reviews {
   margin-bottom: 0.25rem;
 }
 
-.job {
+.place {
   margin-bottom: 0.5rem;
   text-transform: uppercase;
   color: var(--clr-primary-5);
