@@ -5,9 +5,11 @@ import { Link } from 'react-router-dom';
 import Loading from './Loading';
 import Tours from './Tours';
 
+
 const url = 'https://course-api.com/react-tours-project';
 
 const Home = () => {
+  
   const [loading, setLoading] = useState(true);
   const [tours, setTours] = useState([]);
 
@@ -57,6 +59,7 @@ const Home = () => {
 
   return (
     <main>
+      
       <Tours tours={tours} removeTour={removeTour} />
       <Link to='/reviews'>
         <button className='random-btn'>Check out our reviews</button>

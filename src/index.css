@@ -370,3 +370,23 @@ main .reviews {
   background: var(--clr-primary-5);
   color: var(--clr-primary-1);
 }
+.navBar {
+  display: flex;
+  flex-direction: row;
+  background-color: navajowhite;
+  border-bottom-style: solid;
+  border-bottom-width: 0px;
+  align-items: center;
+  min-height: 40px;
+  padding-left: 25px;
+  font-size: large;
+  
+}
+
+.our-reviews {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
+
